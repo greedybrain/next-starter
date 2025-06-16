@@ -1,6 +1,6 @@
-import React from "react";
-import { TFixedContainerProps } from "@/types/props";
 import { cn } from "@/lib/utils";
+import { TFixedContainerProps } from "@/types/props";
+import React from "react";
 
 /**
  * Fixed Container Component: Has a fixed max width of 1280px and positions content

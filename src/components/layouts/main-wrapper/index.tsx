@@ -1,6 +1,6 @@
-import FixedContainer from "../fixed-container";
-import { TMainWrapperProps } from "@/types/props";
 import { cn } from "@/lib/utils";
+import { TMainWrapperProps } from "@/types/props";
+import FixedContainer from "../fixed-container";
 
 const MainWrapper = ({ children, ...rest }: TMainWrapperProps) => {
     const { className, ...restProps } = rest;

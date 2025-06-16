@@ -4,10 +4,6 @@ import { DetailedHTMLProps, HTMLAttributes } from "react";
 // B
 // C
 // D
-export type TStandardDivElement = DetailedHTMLProps<
-    HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
->;
 // E
 // F
 // G
@@ -23,10 +19,17 @@ export type TStandardDivElement = DetailedHTMLProps<
 // Q
 // R
 // S
+
+export type TStandardDivElement = DetailedHTMLProps<
+    HTMLAttributes<HTMLDivElement>,
+    HTMLDivElement
+>;
+
 export type TStandardHTMLElement = DetailedHTMLProps<
     HTMLAttributes<HTMLElement>,
     HTMLElement
 >;
+
 // T
 // U
 // V

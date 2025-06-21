@@ -4,7 +4,7 @@ import { MetadataRoute } from "next";
 
 const SITE_URL = env.SITE_URL;
 
-export default function sitemap(): MetadataRoute.Sitemap {
+const sitemap = (): MetadataRoute.Sitemap => {
     return [
         {
             url: `${SITE_URL}${ROUTES.LOGIN}`,
@@ -19,4 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
         },
     ];
-}
+};
+
+export default sitemap;

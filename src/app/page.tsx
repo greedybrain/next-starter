@@ -1,5 +1,7 @@
 import MainWrapper from "@/components/layouts/main-wrapper";
 
-export default async function Home() {
+const Home = () => {
     return <MainWrapper>Home</MainWrapper>;
-}
+};
+
+export default Home;

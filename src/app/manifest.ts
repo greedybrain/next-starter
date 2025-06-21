@@ -1,7 +1,7 @@
 //TODO: Update this file
 import type { MetadataRoute } from "next";
 
-export default function manifest(): MetadataRoute.Manifest {
+const manifest = (): MetadataRoute.Manifest => {
     return {
         name: "dotpdf.ai",
         short_name: "DotPDF",
@@ -19,4 +19,6 @@ export default function manifest(): MetadataRoute.Manifest {
             },
         ],
     };
-}
+};
+
+export default manifest;

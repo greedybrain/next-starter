@@ -1,7 +1,7 @@
 import { env } from "@/config/env/server";
 import type { MetadataRoute } from "next";
 
-export default function robots(): MetadataRoute.Robots {
+const robots = (): MetadataRoute.Robots => {
     return {
         rules: [
             {
@@ -12,4 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
         sitemap: `${env.SITE_URL!}/sitemap.xml`,
     };
-}
+};
+
+export default robots;
